@@ -62,10 +62,7 @@ jobs:
         working-directory: ./
         run: |
           mkdir -p ./CI/Examples/Blinky
-          # Enable the option to copy hiden files and folders
-          shopt -s dotglob
-          cp -rf ./BSP/Examples/Blinky/* ./CI/Examples/Blinky/
-          shopt -u dotglob  # disable it again
+          cp -a ./BSP/Examples/Blinky/* ./CI/Examples/Blinky/
 
       - name: Build Blinky AC6
         if: always()
