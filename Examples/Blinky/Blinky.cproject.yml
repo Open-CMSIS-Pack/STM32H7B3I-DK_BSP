@@ -42,6 +42,7 @@ project:
       regions: ./RTE/Device/STM32H7B3LIHxQ/regions_STM32H7B3I-DK.h
       for-compiler: AC6
 
+  # List executable file formats to be generated.
   output:
     type:
       - elf
