@@ -14,7 +14,7 @@
   </licenseSets>
 
   <releases>
-    <release version="2.1.1-dev">
+    <release version="2.1.2-dev">
       Active development ...
     </release>
     <release version="1.0.0" date="2022-04-08">
